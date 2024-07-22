@@ -13,7 +13,7 @@ function Header() {
       <header className="header">
         <div className="logo">
           <img
-            src="../../public/logo.png"
+            src="../logo2.png"
             alt="Today I Learned"
             height="65px"
             width="65px"
