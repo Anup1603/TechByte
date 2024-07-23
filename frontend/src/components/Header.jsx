@@ -13,6 +13,7 @@ function Header() {
       <header className="header">
         <div className="logo">
           <h1 className="title">@Tech-Byte</h1>
+          
         </div>
         <button className="btn btn-large" id="shareBtn" onClick={openCloseForm}>
           {showForm ? "CLOSE" : "SHARE A FACT"}
