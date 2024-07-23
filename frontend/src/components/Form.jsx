@@ -32,7 +32,7 @@ function Form() {
         <span>{200 - text.length}</span>
         <input
           type="text"
-          placeholder="Trustworthy Source..."
+          placeholder="https://example.com/artical"
           ref={sourceRef}
         />
         <select
