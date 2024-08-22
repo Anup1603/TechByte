@@ -61,7 +61,7 @@ function App() {
   const getNews = async () => {
     setFetching(true);
 
-    const res = await fetch("https://techbyte-api.onrender.com/api/all");
+    const res = await fetch("https://techbyte-backend2.onrender.com/api/all");
     const data = await res.json();
 
     if (res.ok) {
@@ -73,7 +73,7 @@ function App() {
   const addFact = async (text, source, category) => {
     const newNews = { text, source, category };
 
-    const res = await fetch("https://techbyte-api.onrender.com/api/all", {
+    const res = await fetch("https://techbyte-backend2.onrender.com/api/all", {
       method: "POST",
       body: JSON.stringify(newNews),
       headers: {
